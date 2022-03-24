@@ -240,6 +240,13 @@ body {
 
 .time {
   text-align: center;
+  height: 950px;
+  background-color: #f5f5f5;
+  padding-top: 100px;
+}
+.time h2 {
+  font-family: "Montez", cursive;
+  font-size: 62px;
 }
 .time__slider {
   display: flex;
@@ -251,6 +258,30 @@ body {
   height: 340px;
   background-color: #5d5d5d;
   border-radius: 50%;
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+.time .cat {
+  height: 550px;
+  text-align: center;
+  width: 340px;
+}
+.time .cat h2 {
+  font-size: 25px;
+  font-family: "Athiti", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+}
+.time .cat p {
+  font-size: 16px;
+  font-family: "Athiti", sans-serif;
+  font-weight: 500;
+  color: #515151;
+  max-width: 350px;
+  line-height: 1.5;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

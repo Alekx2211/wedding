@@ -239,6 +239,13 @@ display: flex;
 }
 .time {
   text-align: center;
+  height: 950px;
+  background-color: #f5f5f5;
+  padding-top: 100px;
+  h2 {
+    font-family: "Montez", cursive;
+    font-size: 62px;
+  }
   &__slider {
     display: flex;
     flex-direction: column;
@@ -249,5 +256,29 @@ display: flex;
     height: 340px;
     background-color: #5d5d5d;
     border-radius: 50%;
+    margin-left: 25px;
+    margin-bottom: 40px;
   }
+.cat {
+  height: 550px;
+  text-align: center;
+  width: 340px;
+  h2 {
+    font-size: 25px;
+    font-family: "Athiti", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  p {
+    font-size: 16px;
+    font-family: "Athiti", sans-serif;
+    font-weight: 500;
+    color: #515151;
+    max-width: 350px;
+    line-height: 1.5;
+    margin-top: 40px;
+  }
+}
 }
