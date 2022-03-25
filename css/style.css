@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Montez&display=swap");
 body {
-  margin: 0; }
+  margin: 0;
+  width: 1920px; }
 
 .wrap {
   width: 1170px;
@@ -68,7 +69,9 @@ body {
     background-color: #f6f3ed;
     position: absolute;
     bottom: 0;
-    left: 50%;
+    right: 0;
+    margin: auto;
+    left: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -286,10 +289,19 @@ body {
 
 .family {
   background-color: #d2527f;
-  height: 345px; }
+  height: 345px;
+  position: relative;
+  margin-top: 200px; }
   .family__cody {
     width: 345px;
     height: 345px;
-    background-color: #5d5d5d; }
+    background-color: #5d5d5d;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-radius: 50%;
+    border: solid 20px #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
