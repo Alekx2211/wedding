@@ -36,6 +36,9 @@ display: flex;
     &:hover{
     color: #fc5a61;
   }
+    &:active {
+      color: #59ba88;
+    }
   }
   &__logo {
     font-size: 29px;
@@ -341,6 +344,9 @@ display: flex;
     background-color: #313131;
     &:hover {
       background-color: #fc5a61;
+    }
+    &:active {
+      background-color: aqua;
     }
   }
   &__foto2 {
