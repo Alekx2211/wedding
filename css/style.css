@@ -28,8 +28,8 @@ body {
     color: #2c2c2c; }
     .header__link:hover {
       color: gold; }
-    .header__link.active {
-      color: #d2527f; }
+    .header__link:active {
+      color: #59ba88; }
   .header__logo {
     font-size: 29px;
     font-weight: bold;
@@ -286,6 +286,8 @@ body {
     background-color: #313131; }
     .Gallery__fot1:hover, .Gallery__fot2:hover, .Gallery__fot3:hover {
       background-color: #fc5a61; }
+    .Gallery__fot1:active, .Gallery__fot2:active, .Gallery__fot3:active {
+      background-color: aqua; }
   .Gallery__foto2 {
     padding-top: 20px; }
 

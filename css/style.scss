@@ -36,8 +36,8 @@ display: flex;
     &:hover{
     color: gold;
   }
-    &.active {
-      color: #d2527f;
+    &:active {
+      color: #59ba88;
     }
   }
   &__logo {
@@ -344,6 +344,9 @@ display: flex;
     background-color: #313131;
     &:hover {
       background-color: #fc5a61;
+    }
+    &:active {
+      background-color: aqua;
     }
   }
   &__foto2 {
