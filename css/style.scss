@@ -34,8 +34,11 @@ display: flex;
     font-weight: Bold;
     color: $text;
     &:hover{
-    color: #fc5a61;
+    color: gold;
   }
+    &.active {
+      color: #d2527f;
+    }
   }
   &__logo {
     font-size: 29px;
@@ -348,22 +351,56 @@ display: flex;
   }
 }
 .family {
-  background-color: #d2527f;
-  height: 460px;
-  position: relative;
-  margin-top: 200px;
+  &__famy {
+    background-color: #d2527f;
+    height: 460px;
+    position: relative;
+    margin-top: 200px;
+  }
   &__cody {
     width: 345px;
     height: 345px;
-    background-color: #5d5d5d;
+    background-image: url("../img/sony.jpg");
     margin: auto;
     position: absolute;
     left: 0;
     right: 0;
-    top: 50%;
+    top: 60%;
     border-radius: 50%;
     border: solid 20px #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__martin {
+    width: 170px;
+    height: 170px;
+    background-color: #fc5a61;
+    border-radius: 50%;
+    margin-left: 30px;
+  }
+  &__maria {
+    width: 170px;
+    height: 170px;
+    background-color: #fc5a61;
+    border-radius: 50%;
+    margin-left: 30px;
+  }
+  &__fat {
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 225PX;
+  }
+  &__brother {
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 390px;
   }
 }
+
 
 

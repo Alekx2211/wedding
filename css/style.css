@@ -27,7 +27,9 @@ body {
     font-weight: Bold;
     color: #2c2c2c; }
     .header__link:hover {
-      color: #fc5a61; }
+      color: gold; }
+    .header__link.active {
+      color: #d2527f; }
   .header__logo {
     font-size: 29px;
     font-weight: bold;
@@ -287,21 +289,48 @@ body {
   .Gallery__foto2 {
     padding-top: 20px; }
 
-.family {
+.family__famy {
   background-color: #d2527f;
   height: 460px;
   position: relative;
   margin-top: 200px; }
-  .family__cody {
-    width: 345px;
-    height: 345px;
-    background-color: #5d5d5d;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    border-radius: 50%;
-    border: solid 20px #ffffff; }
+.family__cody {
+  width: 345px;
+  height: 345px;
+  background-image: url("../img/sony.jpg");
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  border-radius: 50%;
+  border: solid 20px #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.family__martin {
+  width: 170px;
+  height: 170px;
+  background-color: #fc5a61;
+  border-radius: 50%;
+  margin-left: 30px; }
+.family__maria {
+  width: 170px;
+  height: 170px;
+  background-color: #fc5a61;
+  border-radius: 50%;
+  margin-left: 30px; }
+.family__fat {
+  max-width: 750px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 225PX; }
+.family__brother {
+  width: 1170px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 390px; }
 
 /*# sourceMappingURL=style.css.map */
